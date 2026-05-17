@@ -7,6 +7,7 @@ type Post struct {
 	Title     string
 	Content   string
 	Tags      []string
+	Category  string
 	CreatedAt time.Time
 	UpdatedAt time.Time
 }
